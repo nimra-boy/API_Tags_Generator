@@ -57,6 +57,6 @@ $ export FLASK_ENV=development
 $ flask run
 ```
 * Go to http://127.0.0.1:5000/ and click on "Try it out"
-![Swagger](images/localhost-swagger.png)
+![Swagger](screenshots/localhost-swagger.png)
 * Enter a title and a description then click on execute
-![Swagger request](images/swagger-request.png)
+![Swagger request](screenshots/swagger-request.png)
