@@ -1,4 +1,4 @@
-from flask import Flask, request, Response, json
+from flask import Flask, request, Response, json, render_template
 from flask_restplus import Api, Resource, fields
 # import joblib
 # import preprocessing as preprocess
@@ -40,7 +40,7 @@ app = Api(app = flask_app,
 
 @app.route("/")
 def hello():
-    return "hello world"
+    return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
