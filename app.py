@@ -38,5 +38,5 @@ class MainClass(Resource):
         results = json.dumps({'tags': tags})
         return Response(results, status=200, mimetype='application/json')
 
-# if __name__ == "__main__":
-#	app.run()
+if __name__ == "__main__":
+    app.run()
